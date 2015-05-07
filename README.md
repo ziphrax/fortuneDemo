@@ -10,6 +10,15 @@ Things to look out for in this demo:
 - Breaking fortune resources out of the main server.js file
 - Changing the default templating engine using ejs and ejs-locals
 
+Installation Instructions
+------------------------
+
+git clone https://github.com/ziphrax/fortuneDemo.git
+cd fortuneDemo
+npm install
+npm start
+
+
 Please feel free to raise any issues on how you feel this can be improved.
 
 Thanks To:
