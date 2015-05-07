@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bower": "^1.4.1",
     "ejs": "^2.3.1",
     "ejs-locals": "^1.0.2",
     "express": "^4.12.3",
     "fortune": "^0.2.4",
-    "fortune-mongodb": "^0.2.2"
+    "fortune-mongodb": "^0.2.2",
+    "gulp": "^3.8.11"
   }
 }

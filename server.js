@@ -9,6 +9,7 @@ var container = express()
 	.engine('ejs', engine)
 	.set('view engine','ejs')
 	.use(logger)
+	.use(express.static('public'))
 	.use(routes)
 	.use(fortuneAPI.router)
 	.listen(3001);
