@@ -13,14 +13,15 @@ Things to look out for in this demo:
 Installation Instructions
 ------------------------
 
-git clone https://github.com/ziphrax/fortuneDemo.git
-cd fortuneDemo
-npm install
-npm start
+	git clone https://github.com/ziphrax/fortuneDemo.git
+	cd fortuneDemo
+	npm install
+	npm start
 
 
 Please feel free to raise any issues on how you feel this can be improved.
 
 Thanks To:
-	[Dali Zheng	(daliwali)](https://github.com/daliwali)
-	[https://github.com/fortunejs/fortune](https://github.com/fortunejs/fortune)
+
+[Dali Zheng	(daliwali)](https://github.com/daliwali)
+[https://github.com/fortunejs/fortune](https://github.com/fortunejs/fortune)
