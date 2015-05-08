@@ -16,5 +16,9 @@
     "fortune": "^0.2.4",
     "fortune-mongodb": "^0.2.2",
     "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-debug": "^2.0.1"
   }
 }

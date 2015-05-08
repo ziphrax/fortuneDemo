@@ -5,12 +5,17 @@
 		db: 'fortune1',
 		namespace: '/api/v1'
 	})  
-	.resource('post', {
+	.resource('client', {
 		name: String,
-		content: String,
-		author: String,
-		created: Date,
-		lastUpdated: Date
+		created: String,
+		updated: String,
+		programmes: ['programme']
+	})
+	.resource('programme',{
+		name: String,
+		created: String,
+		updated: String,
+		client: ['client']
 	});
 
 module.exports = fortuneAPI;
