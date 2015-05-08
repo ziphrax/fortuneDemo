@@ -15,5 +15,5 @@ App.ProgrammeController = Ember.Controller.extend({
 });
 
 App.ProgrammesController = Ember.ArrayController.extend({
-	itemController : 'client'
+	itemController : 'programme'
 });

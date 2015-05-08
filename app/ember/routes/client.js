@@ -11,7 +11,7 @@ App.ClientsRoute = Ember.Route.extend({
 	}
 });
 
-App.ClientsNewRoute = Ember.ClientRoute.extend({
+App.ClientsNewRoute = App.ClientRoute.extend({
 	controllerName: 'client',
 	model: function(){
 		return this.store.createRecord('client');

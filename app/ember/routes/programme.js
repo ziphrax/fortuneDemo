@@ -11,7 +11,7 @@ App.ProgrammesRoute = Ember.Route.extend({
 	}
 });
 
-App.ProgrammesNewRoute = Ember.ProgrammeRoute.extend({
+App.ProgrammesNewRoute = App.ProgrammeRoute.extend({
 	controllerName: 'programme',
 	model: function(){
 		return this.store.createRecord('programme');
