@@ -3,7 +3,7 @@
 		adapter: 'mongodb',
 		connectionString: 'mongodb://localhost/fortune1',
 		db: 'fortune1',
-		namespace: '/api/v1'
+		namespace: '/api'
 	})  
 	.resource('post', {
 		name: String,
